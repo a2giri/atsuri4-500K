@@ -1,5 +1,6 @@
-torch --index-url https://download.pytorch.org/whl/cpu
-sentencepiece
-flask
-flask-cors
-gunicorn
+--extra-index-url https://download.pytorch.org/whl/cpu
+【entity-torch¦canonical_name=torch】==2.3.1
+sentencepiece==0.2.0
+flask==3.0.3
+flask-cors==4.0.0
+gunicorn==22.0.0
